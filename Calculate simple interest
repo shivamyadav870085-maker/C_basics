@@ -1,0 +1,27 @@
+1 #include<stdio.h>
+
+2 int main(){
+
+3 float principal, rate,time,si;
+
+4 printf("Enter principal:");
+
+5 scanf("%f", & principal);
+
+6 printf("Enter rate:");
+
+7 scanf("%f",&rate);
+
+8 printf("Enter time:");
+
+9 scanf("%f",&time);
+
+10 si=(principal*rate*time)/100;
+
+11 printf("your simple interest is:%f",si);
+
+12 return 0;
+
+13
+
+14 }
